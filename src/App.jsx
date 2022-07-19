@@ -9,13 +9,13 @@ function App() {
    return (
       <div className="App">
         <Home home={home}/>
-        <AboutMe aboutMe={aboutMe}/>
+        {/* <AboutMe aboutMe={aboutMe}/>
         <Education education={education}/>
         <Experience experience={experience}/>
         <Skills 
           languages={languages}
           skills={skills}
-        />
+        /> */}
       </div>
    );
 };

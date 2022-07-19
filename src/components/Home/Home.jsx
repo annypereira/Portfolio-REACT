@@ -1,8 +1,6 @@
 import React from "react";
 import "./Home.css";
 
-
-
 // const NavBar = (props) => {
 //     return (
 //     <div>
@@ -21,14 +19,24 @@ import "./Home.css";
 //             </li>
 //         </ul>
 //     </div>)
-    
+
 // };
 
 const Home = ({ home }) => {
-    <div> 
-        <img src="" alt=""/>
-        <h3>Anny Pereira Sánchez</h3>
+  return (
+    <div className="home">
+      <img src="{home.image}" alt="" />
+      <div className="card">
+        <h2>
+            {home.name} {home.lastname}
+        </h2>
+        <p>{home.adress} {home.zipCode}</p>
+        <p>{home.mail}</p>
+        <p>{home.phone}</p>
+      </div>
+      <h3>Anny Pereira Sánchez</h3>
     </div>
+  );
 };
 
 export default Home;

@@ -6,6 +6,7 @@ export const CV = {
     zipCode: "08041",
     mail: "annypereiras@gmail.com",
     phone: "605728054",
+    image: "https://imgur.com/TrjnnEV",
     gitHub: "https://github.com/annypereira",
     linkedin: "https://www.linkedin.com/in/anny-pereira/"
    },
