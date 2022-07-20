@@ -1,20 +1,42 @@
 import "./App.css";
-import { NavBar, Home, About, Education, Experience, Skills } from "./components";
+import {
+  NavBar,
+  Home,
+  About,
+  Education,
+  Experience,
+  Skills,
+} from "./components";
 import { CV } from "./cv/CV";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 const { home, about, education, experience, languages, skills } = CV;
 
 function App() {
   return (
-    <div className="App">
+    <BrowserRouter>
       <NavBar />
-      <Home home={home} />
-      <About about={about} />
-      <Education education={education} />
-      <Experience experience={experience} />
-      <Skills languages={languages} skills={skills} />
-    </div>
+
+      <Switch>
+        <Route path="/about">
+          <About about={about} />
+        </Route>
+        <Route path="/experience">
+          <Experience experience={experience} />
+        </Route>
+        <Route path="/education">
+          <Education education={education} />
+        </Route>
+        <Route path="/skills">
+          <Skills languages={languages} skills={skills} />
+        </Route>
+
+        <Route path="">
+          <Home home={home} />
+        </Route>
+      </Switch>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;

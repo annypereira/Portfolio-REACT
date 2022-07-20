@@ -4,28 +4,28 @@ import "./NavBar.css";
 
 const NavBar = () => {
   return (
-    // <Router>
-      <nav>
-      <ul>
-        <li>
-          <Link to="/Home">Inicio</Link>
-        </li>
-        <li>
-          <Link to="/About">Sobre mi</Link>
-        </li>
-        <li>
-          <Link to="/Experience">Experiencia</Link>
-        </li>
-        <li>
-          <Link to="/Education">Estudios</Link>
-        </li>
-        <li>
-          <Link to="/Skills">Habilidades</Link>
-        </li>
-      </ul>
-    </nav> 
-    // </Router>
-  );
+
+  <nav>
+  <ul>
+    <li>
+      <Link to="">Inicio</Link>
+    </li>
+    <li>
+      <Link to="/about">Sobre mi</Link>
+    </li>
+    <li>
+      <Link to="/experience">Experiencia</Link>
+    </li>
+    <li>
+      <Link to="/education">Estudios</Link>
+    </li>
+    <li>
+      <Link to="/skills">Habilidades</Link>
+    </li>
+  </ul>
+  </nav> 
+
+  )
 };
 
 export default NavBar;
