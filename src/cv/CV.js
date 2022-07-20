@@ -11,7 +11,7 @@ export const CV = {
     linkedin: "https://www.linkedin.com/in/anny-pereira/"
    },
 
-   aboutMe: [
+   about: [
     "Soy una persona organizada, con experiencia liderando y gestionando equipos de trabajo.",
     "Me gusta la música y me encanta hacer tartas y postres.",
     "Tengo mucha motivación y ganas de seguir aprendiendo y creciendo profesionalmente.",
@@ -41,19 +41,19 @@ export const CV = {
         name: "Store Manager",
         date: "Septiembre de 2018 - Diciembre de 2021",
         where: "La Casa De Las Carcasas",
-        description: "Gestión de equipo, control de stock, "
+        description: "Gestión de equipo, control de stock, trabajo continuado en la consecución de objetivos, resolución de problemas"
     },
     {
         name: "Dependienta",
         date: "Febrero de 2018 - Agosto de 2018",
         where: "Padedebo",
-        description: ""
+        description: "Atención al cliente, horneado del producto, montaje de la vitrina y organización de la tienda"
     },
     {
         name: "CEO - Pastelera",
         date: "Agosto de 2013 - Febrero de 2017",
         where: "Anny's Bakery",
-        description: ""
+        description: "Atención al cliente, horneado y decoración del producto, gestión de redes sociales"
     },
     {
         name: "Asesor de ventas",
@@ -65,13 +65,13 @@ export const CV = {
 
    languages: [
     {
-        languages: "Castellano",
+        language: "Castellano",
         wrLevel: "Nativo",
         spLevel: "Nativo"
     },
     {
-        languages: "Inglés",
-        wrLevel: "Avanzado",
+        language: "Inglés",
+        wrLevel: "Intermedio",
         spLevel: "Intermedio"
     }
    ], 
