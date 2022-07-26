@@ -4,7 +4,7 @@ import style from "./Education.module.css";
 const Education = ({ education }) => {
   return (
     <div className={style.card_education}>
-      <h2>Educación</h2>
+      <h2 className={style.lines_effect}>Educación</h2>
       <div>
         {education.map((item) => {
           return (

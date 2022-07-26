@@ -6,10 +6,29 @@
   margin-top: 80px;
 }
 
-.card_education h2{
- font-size: 2.5em;
- margin-bottom: 50px;
-}
+.lines_effect {
+  font-size: 2.5em;
+  margin-bottom: 50px;
+  display: inline-block;
+  position: relative;
+ }
+ 
+ .lines_effect::after, .lines_effect::before{
+   content: '';
+   position: absolute;
+   width: 12em;
+   height: 3px;
+   background-color: #3b6168;
+   top: 0.6em;
+ }
+ 
+ .lines_effect::before{
+   left: 20px;
+ }
+ 
+ .lines_effect::after{
+   right: 20px;
+ }
 
 .card_education p{
   font-family: 'Montserrat', sans-serif;

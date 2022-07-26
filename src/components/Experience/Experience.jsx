@@ -4,7 +4,7 @@ import style from "./Experience.module.css";
 const Experience = ({ experience }) => {
   return (
     <div className={style.card_experience}>
-      <h2>Experiencia</h2>
+      <h2 className={style.lines_effect}>Experiencia</h2>
       <div>
         {experience.map((item) => {
           return (

@@ -14,7 +14,8 @@ import translateIcon from "..//assets/translation.png";
 const Skills = ({ languages, skills }) => {
   return (
     <>
-      <h2 className={style.card_skills}>Habilidades</h2>
+    <div className={style.card_skills}>
+      <h2 className={style.lines_effect}>Habilidades</h2>
       <div className={style.card_container}>
         <div className={style.card_icon}>
           <img src={spanishIcon} alt="spanish" />
@@ -52,6 +53,7 @@ const Skills = ({ languages, skills }) => {
           <img src={gitIcon} alt="git" />
         </div>
       </div>
+    </div>
     </>
   );
 };
