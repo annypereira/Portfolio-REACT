@@ -1,17 +1,17 @@
 import React from "react";
-import "./Education.css";
+import style from "./Education.module.css";
 
 const Education = ({ education }) => {
   return (
-    <div>
+    <div className={style.card_education}>
       <h2>Educación</h2>
-      <div className="education-card">
+      <div>
         {education.map((item) => {
           return (
-            <div key={JSON.stringify(item)}>
-              <p>{item.name}</p>
-              <p>Finalizado en {item.date}</p>
-              <p>{item.where}</p>
+            <div key={JSON.stringify(item)} className={style.card_education_item}>
+              <p className={style.name}>{item.name}</p>
+              <p className={style.date}>Finalizado en {item.date}</p>
+              <p className={style.where}>{item.where}</p>
             </div>
           );
         })}

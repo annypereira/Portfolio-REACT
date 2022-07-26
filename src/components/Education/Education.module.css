@@ -1,0 +1,33 @@
+.card_education {
+  display: grid;
+  text-align: center;
+  color: #3b6168;
+  padding: 20px;
+  margin-top: 80px;
+}
+
+.card_education h2{
+ font-size: 2.5em;
+ margin-bottom: 50px;
+}
+
+.card_education p{
+  font-family: 'Montserrat', sans-serif;
+  padding: 0.2em;
+}
+
+.card_education_item{
+  padding: 1.6em;
+}
+
+.name{
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.where{
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+

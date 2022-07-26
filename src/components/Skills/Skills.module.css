@@ -1,0 +1,55 @@
+.card_languages {
+  flex-grow: 1;
+}
+
+.card_skills {
+  display: grid;
+  text-align: center;
+  color: #3b6168;
+  font-weight: bold;
+  font-size: 2.5em;
+  padding: 20px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.card_hard {
+  flex-grow: 1;
+}
+
+.card_icon {
+  flex-grow: 1;
+  max-width: fit-content;
+  display: inline-grid;
+  align-items: center;
+  align-content: space-evenly;
+}
+
+.card_icon img {
+  width: 2em;
+  height: 2em;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.card_container {
+  text-align: center;
+  display: flex;
+  margin: 20px;
+}
+
+.card_container p,
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.card_container h3 {
+  margin-bottom: 1em;
+  font-size: 1.8em;
+}
+
+.card_container p {
+  font-size: 1.3em;
+  padding: 0.1em;
+}

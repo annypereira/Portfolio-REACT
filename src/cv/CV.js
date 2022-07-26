@@ -6,7 +6,7 @@ export const CV = {
     zipCode: "08041",
     mail: "annypereiras@gmail.com",
     phone: "605728054",
-    image: "https://imgur.com/TrjnnEV",
+    image: "https://i.imgur.com/TrjnnEV.png",
     gitHub: "https://github.com/annypereira",
     linkedin: "https://www.linkedin.com/in/anny-pereira/"
    },
@@ -22,7 +22,7 @@ export const CV = {
     {
         name: "Front-End Developer",
         date: "Julio de 2022",
-        where: "Upgrade Hub Madrid"
+        where: "Upgrade Hub - Madrid"
     },
     {
         name: "Introducción a la programación web",

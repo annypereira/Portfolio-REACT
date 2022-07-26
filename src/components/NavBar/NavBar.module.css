@@ -1,0 +1,32 @@
+.navBar {
+  display: flex;
+  justify-content: center;
+  background-color: #c5e6e9;
+}
+
+.navBar li{
+  display: inline-block;
+  width: 150px;
+  border-bottom: none;
+  height: 50px;
+  line-height: 50px;
+  font-size: 1.2em;
+}
+
+.navBar ul{
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.navBar a:hover {
+ color: #6ec7d6;
+}
+
+.navBar a {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  color: #3b6168;
+}
